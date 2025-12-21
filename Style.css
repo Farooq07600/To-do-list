@@ -1,0 +1,93 @@
+
+*{
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul{
+  list-style-type: none;
+  margin-top: 30px;
+}
+#inputContainer{
+  padding: 2px;
+  text-align: center;
+}
+input[type="text"]{
+  padding-right: 5px;
+  background-color: #F8F9FA;
+  border: solid 1px black;
+  border-radius: 4px;
+  padding: 2px;
+  height: 42px;
+  width: 300px;
+  font-size: 16px;
+  transition-property: border outline background-color;
+  transition-duration: 0.3s;
+}
+input[type="button"]{
+  border:solid 1px black;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+  height: 42.5px;
+  width: 65px;
+  font-size: 16px;
+  background-color: #38B000;
+  transition-property: border outline;
+  transition-duration: 0.3s;
+}
+ul li{
+  margin-block-end: 8px;
+  justify-content: space-between;
+  display: flex;
+  background: #F8F9FA;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 4px;
+  border: solid 2px #ADB5BD;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+ul li:hover{
+  background-color: #EDEDE9;
+}
+input[type="text"]:hover{
+  background-color: #EDEDE9;
+  outline:solid 3px #40916C;
+  border: none;
+}
+input[type="button"]:hover{
+  outline:solid 3px #40916C;
+  border: none;
+}
+.btn{
+  font-weight: bold;
+margin: 5px;
+border: none;
+outline: none;
+background-color: transparent;
+font-size: 16px;
+}
+.editBtn{
+  color: #40916C;
+}
+.editBtn:hover{
+  color: #2D6A4F;
+}
+.deleteBtn{
+  color: #E5383B;
+}
+.deleteBtn:hover{
+  color: #BA181B;
+}
+p{
+  flex-grow: 1;
+  text-align: left;
+}
